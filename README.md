@@ -7,7 +7,8 @@ Tridion GUI Extension to put the Filename in it's own column in the GUI
  3. Create GUI Configuration File and then copy to 'C:\PTridion\web\WebUI\WebRoot\Editors\AddFilename'.  See example in this project.
  4. Update Tridion System.config to enable GUI Extension, 'C:\Tridion\web\WebUI\WebRoot\Configuration'
  <editor name="AddFilename">
-  <installpath>C:\PTridion\web\WebUI\WebRoot\Editors\AddFilename</installpath>
+<!-- CHANGE THIS PATH -->
+  <installpath>C:\Tridion\web\WebUI\WebRoot\Editors\AddFilename</installpath>
   <configuration>AddFilename.config</configuration>
   <vdir/>
 </editor>
