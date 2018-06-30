@@ -7,8 +7,8 @@ namespace FilenameInGui
 {
     public class CoreService
     { //acct used to access CoreService, needs to be a member of Editor group in Tridion
-      private string username = "cms_filename_svc@apa.org";
-      private string password = "EaG13r@Ck";
+      private string username = "cms@blocks.org";
+      private string password = "Tridion";
         public CoreServiceClient GetClient()
         {
             var binding = new NetTcpBinding
